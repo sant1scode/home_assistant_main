@@ -12,8 +12,15 @@ secrets.yaml
 *.log.txt
 .storage
 .cloud
-home-assistant.log
-home-assistant_v2
+home-assistant.log.1
+home-assistant.log.fault
+home-assistant_v2.db
+home-assistant_v2.db-shm
+home-assistant_v2.db-wal
+zigbee.db
+zigbee.db-shm
+zigbee.db-wal
+
 id_rsa*
 
 
