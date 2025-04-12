@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "person.sthome"
+              ]
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home",
+              "show_forecast": false
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.sun_next_dawn",
+                "sensor.sun_next_dusk",
+                "sensor.sun_next_midnight"
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.hl_3170cdw_b_w_pages",
+                  "name": "B/W pages"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_belt_unit_remaining_lifetime",
+                  "name": "Belt unit remaining lifetime"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_black_drum_page_counter",
+                  "name": "Black drum page counter"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_black_drum_remaining_lifetime",
+                  "name": "Black drum remaining lifetime"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_black_drum_remaining_pages",
+                  "name": "Black drum remaining pages"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_black_toner_remaining",
+                  "name": "Black toner remaining"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_color_pages",
+                  "name": "Color pages"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_cyan_drum_page_counter",
+                  "name": "Cyan drum page counter"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_cyan_drum_remaining_lifetime",
+                  "name": "Cyan drum remaining lifetime"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_cyan_drum_remaining_pages",
+                  "name": "Cyan drum remaining pages"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_cyan_toner_remaining",
+                  "name": "Cyan toner remaining"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_fuser_remaining_lifetime",
+                  "name": "Fuser remaining lifetime"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_magenta_drum_page_counter",
+                  "name": "Magenta drum page counter"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_magenta_drum_remaining_lifetime",
+                  "name": "Magenta drum remaining lifetime"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_magenta_drum_remaining_pages",
+                  "name": "Magenta drum remaining pages"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_magenta_toner_remaining",
+                  "name": "Magenta toner remaining"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_page_counter",
+                  "name": "Page counter"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_pf_kit_1_remaining_lifetime",
+                  "name": "PF Kit 1 remaining lifetime"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_status",
+                  "name": "Status"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_yellow_drum_page_counter",
+                  "name": "Yellow drum page counter"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_yellow_drum_remaining_lifetime",
+                  "name": "Yellow drum remaining lifetime"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_yellow_drum_remaining_pages",
+                  "name": "Yellow drum remaining pages"
+                },
+                {
+                  "entity": "sensor.hl_3170cdw_yellow_toner_remaining",
+                  "name": "Yellow toner remaining"
+                }
+              ],
+              "title": "HL-3170CDW"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.fan_1"
+              ],
+              "title": "Fan 1"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -13,7 +13,7 @@ secrets.yaml
 *.log.txt
 *.db-sh
 *.db-wal
-.storage
+#.storage
 .cloud
 home-assistant.log.1
 home-assistant.log.fault

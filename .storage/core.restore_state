@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.sthome","state":"unknown","attributes":{"editable":true,"id":"sthome","device_trackers":["device_tracker.stxvii"],"user_id":"6f70c7f57e6c49a28b119f3a32b85e81","friendly_name":"STHOME"},"last_changed":"2025-04-11T18:37:14.177811+00:00","last_reported":"2025-04-11T18:38:09.000824+00:00","last_updated":"2025-04-11T18:38:09.000824+00:00","context":{"id":"01JRK2A7K8R5S5D4HDFMKK106M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-04-11T18:37:53.778887+00:00","last_reported":"2025-04-11T18:37:53.778887+00:00","last_updated":"2025-04-11T18:37:53.778887+00:00","context":{"id":"01JRK29RQJC2JGX55KD0CKCQRF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-04-11T18:38:01.600746+00:00","last_reported":"2025-04-11T18:38:01.600746+00:00","last_updated":"2025-04-11T18:38:01.600746+00:00","context":{"id":"01JRK2A0C09D4TK4PKTQWB01BS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.stxvii_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"STXVII Focus"},"last_changed":"2025-04-11T18:38:03.226097+00:00","last_reported":"2025-04-11T18:38:03.226097+00:00","last_updated":"2025-04-11T18:38:03.226097+00:00","context":{"id":"01JRK2A1YTXGCF0F6VTEN8BWTD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.stxvii","state":"unknown","attributes":{"source_type":"gps","friendly_name":"STXVII"},"last_changed":"2025-04-11T18:38:03.230075+00:00","last_reported":"2025-04-11T18:38:03.230075+00:00","last_updated":"2025-04-11T18:38:03.230075+00:00","context":{"id":"01JRK2A1YYX5NWV8GCFNA4Q4P3","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-60","friendly_name":"STXVII Battery State"},"last_changed":"2025-04-11T18:38:03.232786+00:00","last_reported":"2025-04-12T02:06:13.834478+00:00","last_updated":"2025-04-12T02:06:13.834478+00:00","context":{"id":"01JRKVYPAA24HJ9C6667MTDQKD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"STXVII Connection Type"},"last_changed":"2025-04-11T18:38:03.233659+00:00","last_reported":"2025-04-11T18:38:03.233659+00:00","last_updated":"2025-04-11T18:38:03.233659+00:00","context":{"id":"01JRK2A1Z1M2VNATCQ9DNABG9X","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_storage","state":"4.34","attributes":{"Available":"11.81 GB","Available (Important)":"22.79 GB","Available (Opportunistic)":"11.07 GB","Total":"255.41 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"STXVII Storage"},"last_changed":"2025-04-12T03:50:17.560413+00:00","last_reported":"2025-04-12T04:44:50.510637+00:00","last_updated":"2025-04-12T04:44:50.510637+00:00","context":{"id":"01JRM513YEW8GADT53R8ZBG708","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "4.34",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"5G Non-Standalone","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"STXVII SIM 1"},"last_changed":"2025-04-11T18:38:03.234846+00:00","last_reported":"2025-04-11T18:38:03.234846+00:00","last_updated":"2025-04-11T18:38:03.234846+00:00","context":{"id":"01JRK2A1Z2CEP9XH7VFKQ8E8X0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_ssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"STXVII SSID"},"last_changed":"2025-04-11T18:38:03.235407+00:00","last_reported":"2025-04-11T18:38:03.235407+00:00","last_updated":"2025-04-11T18:38:03.235407+00:00","context":{"id":"01JRK2A1Z3SN0TDNPDME42K107","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_battery_level","state":"65","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-60","friendly_name":"STXVII Battery Level"},"last_changed":"2025-04-12T02:06:13.833858+00:00","last_reported":"2025-04-12T02:06:13.833858+00:00","last_updated":"2025-04-12T02:06:13.833858+00:00","context":{"id":"01JRKVYPA9KV11HPK4WM1NKFRX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 65,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_bssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"STXVII BSSID"},"last_changed":"2025-04-11T18:38:03.236807+00:00","last_reported":"2025-04-11T18:38:03.236807+00:00","last_updated":"2025-04-11T18:38:03.236807+00:00","context":{"id":"01JRK2A1Z4S3V42XZFM8V3C8HS","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"STXVII SIM 2"},"last_changed":"2025-04-11T18:38:03.237715+00:00","last_reported":"2025-04-11T18:38:03.237715+00:00","last_updated":"2025-04-11T18:38:03.237715+00:00","context":{"id":"01JRK2A1Z585SF3VZN9H1P12EN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"STXVII Geocoded Location"},"last_changed":"2025-04-11T18:38:03.240062+00:00","last_reported":"2025-04-11T18:38:03.240062+00:00","last_updated":"2025-04-11T18:38:03.240062+00:00","context":{"id":"01JRK2A1Z82TB61J1Q8W4QXY8P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_last_update_trigger","state":"Background Fetch","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"STXVII Last Update Trigger"},"last_changed":"2025-04-12T01:42:37.371508+00:00","last_reported":"2025-04-12T01:42:37.371508+00:00","last_updated":"2025-04-12T01:42:37.371508+00:00","context":{"id":"01JRKTKF1VHQG8MFX9G4R4PZQQ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Background Fetch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_watch_battery_level","state":"70","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-70","friendly_name":"STXVII Watch Battery Level"},"last_changed":"2025-04-11T18:38:03.241720+00:00","last_reported":"2025-04-11T18:38:03.241720+00:00","last_updated":"2025-04-11T18:38:03.241720+00:00","context":{"id":"01JRK2A1Z9VPA0XHNKDBJGDSF2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 70,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_watch_battery_state","state":"Not Charging","attributes":{"icon":"mdi:battery-70","friendly_name":"STXVII Watch Battery State"},"last_changed":"2025-04-11T18:38:03.242193+00:00","last_reported":"2025-04-11T18:38:03.242193+00:00","last_updated":"2025-04-11T18:38:03.242193+00:00","context":{"id":"01JRK2A1ZA6S8YE5KSGQ59BD61","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_app_version","state":"2025.3","attributes":{"icon":"mdi:cellphone","friendly_name":"STXVII App Version"},"last_changed":"2025-04-11T18:38:03.242829+00:00","last_reported":"2025-04-11T18:38:03.242829+00:00","last_updated":"2025-04-11T18:38:03.242829+00:00","context":{"id":"01JRK2A1ZAPFGCJ6BKSRPXVQTV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2025.3",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_location_permission","state":"Authorized when in use","attributes":{"icon":"mdi:map","friendly_name":"STXVII Location permission"},"last_changed":"2025-04-11T18:38:03.243479+00:00","last_reported":"2025-04-11T18:38:03.243479+00:00","last_updated":"2025-04-11T18:38:03.243479+00:00","context":{"id":"01JRK2A1ZBAF773WKHC4M3ZCVB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized when in use",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.stxvii_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"STXVII Audio Output"},"last_changed":"2025-04-11T18:38:03.243940+00:00","last_reported":"2025-04-11T18:38:03.243940+00:00","last_updated":"2025-04-11T18:38:03.243940+00:00","context":{"id":"01JRK2A1ZB9G69EC4KP4EZCY16","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Built-in Speaker",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"button.fan_1_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Fan 1 Identify"},"last_changed":"2025-04-11T18:38:08.965434+00:00","last_reported":"2025-04-11T18:38:08.965434+00:00","last_updated":"2025-04-11T18:38:08.965434+00:00","context":{"id":"01JRK2A7J5ZZ5S6AFZKNN4X942","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"button.fan_1_reset_summation_delivered","state":"unknown","attributes":{"friendly_name":"Fan 1 Reset summation delivered"},"last_changed":"2025-04-11T18:38:08.966299+00:00","last_reported":"2025-04-11T18:38:08.966299+00:00","last_updated":"2025-04-11T18:38:08.966299+00:00","context":{"id":"01JRK2A7J6RZ24PRNCMXXQK90D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"select.fan_1_start_up_behavior","state":"Off","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Fan 1 Start-up behavior"},"last_changed":"2025-04-11T18:38:08.968358+00:00","last_reported":"2025-04-11T18:38:08.968358+00:00","last_updated":"2025-04-11T18:38:08.968358+00:00","context":{"id":"01JRK2A7J8AWGAW6XM4YCK0NR8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.fan_1_current","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"A","device_class":"current","friendly_name":"Fan 1 Current"},"last_changed":"2025-04-11T19:08:57.583025+00:00","last_reported":"2025-04-11T19:08:57.583025+00:00","last_updated":"2025-04-11T19:08:57.583025+00:00","context":{"id":"01JRK42MVFCPJXMNX1FV4PAHDX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.fan_1_voltage","state":"122","attributes":{"state_class":"measurement","unit_of_measurement":"V","device_class":"voltage","friendly_name":"Fan 1 Voltage"},"last_changed":"2025-04-12T04:49:00.112360+00:00","last_reported":"2025-04-12T04:49:00.112360+00:00","last_updated":"2025-04-12T04:49:00.112360+00:00","context":{"id":"01JRM58QPGTJZRGFECK407ST82","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.fan_1_ac_frequency","state":"60","attributes":{"state_class":"measurement","unit_of_measurement":"Hz","device_class":"frequency","friendly_name":"Fan 1 AC frequency"},"last_changed":"2025-04-11T18:38:08.985463+00:00","last_reported":"2025-04-11T18:38:08.985463+00:00","last_updated":"2025-04-11T18:38:08.985463+00:00","context":{"id":"01JRK2A7JSZYH3XRB08W4TEKPY","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.fan_1_power_factor","state":"0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"power_factor","friendly_name":"Fan 1 Power factor"},"last_changed":"2025-04-12T04:41:10.025589+00:00","last_reported":"2025-04-12T04:41:10.025589+00:00","last_updated":"2025-04-12T04:41:10.025589+00:00","context":{"id":"01JRM4TCM9VFZ8KY4Q3Y0G0YHX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.fan_1_power","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"W","device_class":"power","friendly_name":"Fan 1 Power"},"last_changed":"2025-04-12T04:41:10.010890+00:00","last_reported":"2025-04-12T04:41:10.010890+00:00","last_updated":"2025-04-12T04:41:10.010890+00:00","context":{"id":"01JRM4TCKT3DSSKQX0S5E8HDKK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.fan_1_instantaneous_demand","state":"0.1","attributes":{"state_class":"measurement","device_type":"Electric Metering","zcl_unit_of_measurement":0,"unit_of_measurement":"W","device_class":"power","friendly_name":"Fan 1 Instantaneous demand"},"last_changed":"2025-04-11T18:38:09.529195+00:00","last_reported":"2025-04-11T18:38:09.529195+00:00","last_updated":"2025-04-11T18:38:09.529195+00:00","context":{"id":"01JRK2A83SJKG29V0V62FP7QSN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.fan_1_summation_delivered","state":"0.149","attributes":{"state_class":"total_increasing","device_type":"Electric Metering","zcl_unit_of_measurement":0,"unit_of_measurement":"kWh","device_class":"energy","friendly_name":"Fan 1 Summation delivered"},"last_changed":"2025-04-11T19:18:52.732126+00:00","last_reported":"2025-04-11T19:18:52.732126+00:00","last_updated":"2025-04-11T19:18:52.732126+00:00","context":{"id":"01JRK4MT1WJ0AK97B6KTTVNK5W","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.fan_1","state":"off","attributes":{"friendly_name":"Fan 1"},"last_changed":"2025-04-12T04:41:03.035058+00:00","last_reported":"2025-04-12T04:41:03.055982+00:00","last_updated":"2025-04-12T04:41:03.035058+00:00","context":{"id":"01JRM4T5QPAF4R02VSRCQEQV2J","parent_id":null,"user_id":"6f70c7f57e6c49a28b119f3a32b85e81"}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.fan_1_firmware","state":"off","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x1001305c","in_progress":false,"latest_version":"0x1001305c","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Fan 1 Firmware","supported_features":23},"last_changed":"2025-04-11T18:38:08.992881+00:00","last_reported":"2025-04-11T18:38:08.992881+00:00","last_updated":"2025-04-11T18:38:08.992881+00:00","context":{"id":"01JRK2A7K0VCS8K4H7VYCMD0G4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2025.04.0","in_progress":false,"latest_version":"2025.04.0","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2025.04.0","skipped_version":null,"title":"Home Assistant Supervisor","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2025-04-12T02:17:14.689677+00:00","last_reported":"2025-04-12T02:22:14.933921+00:00","last_updated":"2025-04-12T02:17:14.689677+00:00","context":{"id":"01JRKWJVP1J9ZTRMWZTQZE0J0V","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2025.4.1","in_progress":false,"latest_version":"2025.4.1","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2025-04-12T02:17:14.690472+00:00","last_reported":"2025-04-12T02:22:14.934189+00:00","last_updated":"2025-04-12T02:17:14.690472+00:00","context":{"id":"01JRKWJVP2H8SFW9HHZTB6A3BD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.matter_server_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"7.0.0","in_progress":false,"latest_version":"7.0.0","release_summary":"# Changelog\n\n## 7.0.0\n\n- Bump Python Matter Server to [7.0.1](https://github.com/home-assistant-libs/python-matter-server/releases/tag/7.0.1)\n  - This updates Matter to 1.4\n- Update base image components to what is being used in Home Assistant Debian\n  ba","release_url":null,"skipped_version":null,"title":"Matter Server","update_percentage":null,"entity_picture":"/api/hassio/addons/core_matter_server/icon","friendly_name":"Matter Server Update","supported_features":25},"last_changed":"2025-04-12T02:17:14.691016+00:00","last_reported":"2025-04-12T02:22:14.934300+00:00","last_updated":"2025-04-12T02:17:14.691016+00:00","context":{"id":"01JRKWJVP3FPVJR3S9PE4RYFE2","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.mosquitto_broker_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"6.5.0","in_progress":false,"latest_version":"6.5.0","release_summary":"# Changelog\n\n## 6.5.0\n\n- Update base image to Debian 12 (bookworm)\n- Update mosquitto to version 2.0.20\n- Update mosquitto-go-auth to version 2.1.0\n- Update libwebsockets to version 4.3.3\n\n## 6.4.1\n\n- Increase default max_queued_messages to 8192 to fix dr","release_url":null,"skipped_version":null,"title":"Mosquitto broker","update_percentage":null,"entity_picture":"/api/hassio/addons/core_mosquitto/icon","friendly_name":"Mosquitto broker Update","supported_features":25},"last_changed":"2025-04-12T02:17:14.693401+00:00","last_reported":"2025-04-12T02:22:14.934377+00:00","last_updated":"2025-04-12T02:17:14.693401+00:00","context":{"id":"01JRKWJVP58DH9HTEBB2Y4HB8D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.esphome_device_builder_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2025.3.3","in_progress":false,"latest_version":"2025.3.3","release_summary":"## 2025.3.3\n\n- [display] Don't assume glyph x_offset is zero. [esphome#8473](https://github.com/esphome/esphome/pull/8473) by [@clydebarrow](https://github.com/clydebarrow)\n- Bump ESP mdns to 1.8.2 [esphome#8482](https://github.com/esphome/esphome/pull/84","release_url":null,"skipped_version":null,"title":"ESPHome Device Builder","update_percentage":null,"entity_picture":"/api/hassio/addons/5c53de3b_esphome/icon","friendly_name":"ESPHome Device Builder Update","supported_features":25},"last_changed":"2025-04-12T02:17:14.694005+00:00","last_reported":"2025-04-12T02:22:14.934445+00:00","last_updated":"2025-04-12T02:17:14.694005+00:00","context":{"id":"01JRKWJVP6WV09M7C4JA7D2ARE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.terminal_ssh_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"9.16.0","in_progress":false,"latest_version":"9.16.0","release_summary":"# Changelog\n\n## 9.16.0\n\n- Upgrade ttyd to 1.7.7 (fixes copy to clipboard using shift and drag)\n\n## 9.15.0\n\n- Upgrade Home Assistant CLI to 4.36.0\n\n## 9.14.0\n\n- Upgrade Home Assistant CLI to 4.34.0\n\n## 9.13.0\n\n- Enable ha command completion for non-login s","release_url":null,"skipped_version":null,"title":"Terminal & SSH","update_percentage":null,"entity_picture":"/api/hassio/addons/core_ssh/icon","friendly_name":"Terminal & SSH Update","supported_features":25},"last_changed":"2025-04-12T02:17:14.694938+00:00","last_reported":"2025-04-12T02:22:14.934520+00:00","last_updated":"2025-04-12T02:17:14.694938+00:00","context":{"id":"01JRKWJVP60XWFV9718F0R9CNG","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"15.1","in_progress":false,"latest_version":"15.1","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/15.1","skipped_version":null,"title":"Home Assistant Operating System","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2025-04-12T02:17:14.696463+00:00","last_reported":"2025-04-12T02:22:14.934737+00:00","last_updated":"2025-04-12T02:17:14.696463+00:00","context":{"id":"01JRKWJVP86JQXESHZPF95XS0R","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T05:08:09.031892+00:00"
+    },
+    {
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"20.0.2","in_progress":false,"latest_version":"20.0.2","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update alpine_3_21/bind-tools to v9.18.34-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#858](https://github.com/hassio-addons/addon-ssh/pull/858))\n- ⬆️ Update alpine_3_21/mariadb-client to v11.4","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","update_percentage":null,"entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2025-04-11T18:37:14.704553+00:00","last_reported":"2025-04-11T18:37:14.704553+00:00","last_updated":"2025-04-11T18:37:14.704553+00:00","context":{"id":"01JRK28JJGWT46XCJ08JSGF1YD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-12T02:17:14.620450+00:00"
+    },
+    {
+      "state": {"entity_id":"button.third_reality_inc_3rsp02028bz_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Fan 1 Identify"},"last_changed":"2025-04-11T14:48:54.957083+00:00","last_reported":"2025-04-11T14:49:29.690992+00:00","last_updated":"2025-04-11T14:49:29.690992+00:00","context":{"id":"01JRJN7HTT8N1WGDBWJ81A5GBQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.747730+00:00"
+    },
+    {
+      "state": {"entity_id":"button.third_reality_inc_3rsp02028bz_reset_summation_delivered","state":"unknown","attributes":{"friendly_name":"Fan 1 Reset summation delivered"},"last_changed":"2025-04-11T14:48:54.960797+00:00","last_reported":"2025-04-11T14:49:29.691381+00:00","last_updated":"2025-04-11T14:49:29.691381+00:00","context":{"id":"01JRJN7HTV1P1SHHP0G9C06N3A","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.759777+00:00"
+    },
+    {
+      "state": {"entity_id":"select.third_reality_inc_3rsp02028bz_start_up_behavior","state":"Off","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Fan 1 Start-up behavior"},"last_changed":"2025-04-11T14:48:54.962957+00:00","last_reported":"2025-04-11T14:49:29.691705+00:00","last_updated":"2025-04-11T14:49:29.691705+00:00","context":{"id":"01JRJN7HTV3J7QD3197R54KY3J","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.761660+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.third_reality_inc_3rsp02028bz_current","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"A","device_class":"current","friendly_name":"Fan 1 Current"},"last_changed":"2025-04-11T14:48:54.968142+00:00","last_reported":"2025-04-11T14:49:29.692392+00:00","last_updated":"2025-04-11T14:49:29.692392+00:00","context":{"id":"01JRJN7HTW7K0DEYY1D5ZX8881","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.741776+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.third_reality_inc_3rsp02028bz_voltage","state":"122","attributes":{"state_class":"measurement","unit_of_measurement":"V","device_class":"voltage","friendly_name":"Fan 1 Voltage"},"last_changed":"2025-04-11T14:48:54.970420+00:00","last_reported":"2025-04-11T14:49:29.692940+00:00","last_updated":"2025-04-11T14:49:29.692940+00:00","context":{"id":"01JRJN7HTWMEKRW0P0WK9WBFEW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.766309+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.third_reality_inc_3rsp02028bz_ac_frequency","state":"60","attributes":{"state_class":"measurement","unit_of_measurement":"Hz","device_class":"frequency","friendly_name":"Fan 1 AC frequency"},"last_changed":"2025-04-11T14:48:56.594519+00:00","last_reported":"2025-04-11T14:49:29.693355+00:00","last_updated":"2025-04-11T14:49:29.693355+00:00","context":{"id":"01JRJN7HTXJQ7ZN98B53JQB4T9","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.738399+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.third_reality_inc_3rsp02028bz_power_factor","state":"0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"power_factor","friendly_name":"Fan 1 Power factor"},"last_changed":"2025-04-11T14:48:54.976844+00:00","last_reported":"2025-04-11T14:49:29.693827+00:00","last_updated":"2025-04-11T14:49:29.693827+00:00","context":{"id":"01JRJN7HTXMHZY9GJR0BSDMPCA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.756223+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.third_reality_inc_3rsp02028bz_power","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"W","device_class":"power","friendly_name":"Fan 1 Power"},"last_changed":"2025-04-11T14:48:54.984648+00:00","last_reported":"2025-04-11T14:49:29.694573+00:00","last_updated":"2025-04-11T14:49:29.694573+00:00","context":{"id":"01JRJN7HTY40F4BDE2JEKXGZCR","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.752898+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.third_reality_inc_3rsp02028bz_instantaneous_demand","state":"0.0","attributes":{"state_class":"measurement","zcl_unit_of_measurement":0,"device_type":"Electric Metering","unit_of_measurement":"W","device_class":"power","friendly_name":"Fan 1 Instantaneous demand"},"last_changed":"2025-04-11T14:48:54.989201+00:00","last_reported":"2025-04-11T14:49:29.695477+00:00","last_updated":"2025-04-11T14:49:29.695477+00:00","context":{"id":"01JRJN7HTZEMEWSB8WAW0B8DQF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.750228+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.third_reality_inc_3rsp02028bz_summation_delivered","state":"0.0","attributes":{"state_class":"total_increasing","zcl_unit_of_measurement":0,"device_type":"Electric Metering","unit_of_measurement":"kWh","device_class":"energy","friendly_name":"Fan 1 Summation delivered"},"last_changed":"2025-04-11T14:48:54.994162+00:00","last_reported":"2025-04-11T14:49:29.696406+00:00","last_updated":"2025-04-11T14:49:29.696406+00:00","context":{"id":"01JRJN7HV0E4PNJ0TDA1V813MC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.763942+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.third_reality_inc_3rsp02028bz","state":"off","attributes":{"friendly_name":"Fan 1"},"last_changed":"2025-04-11T14:48:54.997617+00:00","last_reported":"2025-04-11T14:49:29.699716+00:00","last_updated":"2025-04-11T14:49:29.699716+00:00","context":{"id":"01JRJN7HV38GR9FJ4K4QZ8RMMW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.730069+00:00"
+    },
+    {
+      "state": {"entity_id":"update.third_reality_inc_3rsp02028bz_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x1001305c","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Fan 1 Firmware","supported_features":23},"last_changed":"2025-04-11T14:48:55.002134+00:00","last_reported":"2025-04-11T14:49:29.700374+00:00","last_updated":"2025-04-11T14:49:29.700374+00:00","context":{"id":"01JRJN7HV4RYF9H07FRYN6CEC1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-04-11T14:49:29.745032+00:00"
+    }
+  ]
+}
