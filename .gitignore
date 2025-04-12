@@ -10,12 +10,15 @@ custom_components/
 secrets.yaml
 *.log
 *.log.txt
+*.db-sh
+*.db-wal
 .storage
 .cloud
 home-assistant.log.1
 home-assistant.log.fault
 home-assistant_v2.db
 home-assistant_v2.db-shm
+home-assistant_v2.db-wal
 home-assistant_v2.db-wal
 zigbee.db
 zigbee.db-shm
