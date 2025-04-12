@@ -3,6 +3,7 @@
 !*.md
 !*.sh
 !*.js*
+.HA_VERSION
 notebooks/
 esphome/
 deps/
